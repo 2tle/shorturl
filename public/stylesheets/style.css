@@ -1,0 +1,9 @@
+body {
+    background-color: #121212;
+    color:white;
+    text-align:center;
+}
+.title {
+    font-size : 4em;
+    font-weight: 600;
+}

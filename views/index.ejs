@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('./module/head'); %>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="mid">
+                <div class="title">
+                    Short.URL by 2tle
+                </div>
+                <div class="input-group">
+                    <div class="input-group mb-3">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Input your long url! You must write http:// or https://"
+                            aria-label="Input your long url!"
+                            aria-describedby="button-addon2"
+                            id="rawurl"
+                        />
+                        <div class="input-group-append">
+                            <button
+                                class="btn btn-outline-secondary"
+                                type="button"
+                                id="button-addon2"
+                                onclick="createURL();"
+                            >
+                                Create
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
